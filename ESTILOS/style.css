@@ -1,0 +1,116 @@
+body{
+    max-width: 1400px;
+    
+    font-family: 'Poppins', sans-serif;-----/* FUENTES LETRAS */
+}
+
+nav{----------------------------------------/* BARRA DE NAVEGACION */
+    background-color: rgb(205, 238, 204)
+background-color: rgb(205, 238, 204);
+    
+}
+
+
+nav ul li {
+    list-style-type: none;         /* quitar viñetas letras barra navegacion */
+    display: inline-block;         /*hacer que la lista quede de lado a lado barra nav  */
+    transition: 0.8s all;          /* que los botones cambien delado a lado barra nav */
+    padding: 10px 100px;           /* separar una palabra de otra en lista  */
+}
+
+nav ul li:hover{                   /*cuando este sobre un elemento cambie  */
+    background-color: rgb(205, 238, 204);
+}
+
+nav ul li a{
+    text-decoration: none;   /* sin decoracion en el texto  */
+    color: black;          /*solor de letra   */
+    
+}
+
+image{
+    max-width: 100%;
+}
+
+.seccion1{
+    background-color: rgb(245, 252, 189);
+
+}
+
+.video{
+    width: 44%;
+    padding: 8px;
+    white-space: 100px;
+    
+}
+
+.texto{
+    width: 30%;
+    padding: 15px;
+    vertical-align: top;
+}
+
+article{
+    padding: 100px;
+    background-color: rgb(235, 213, 19);
+}
+
+article h2{
+    border-bottom: 2px solid black;
+
+}
+
+
+.texto, .video{
+    display: inline-block;
+}
+
+.boton{
+    text-align: center;
+    background-color: rgb(247, 236, 174);
+    padding: 10px;
+}
+
+.boton a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.boton:hover{
+    background: yellowgreen;
+}
+
+/* article */
+
+section{
+background-color: rgb(250, 250, 201);
+padding: 15px;
+}
+
+section h2{
+    border-bottom: 2px solid black
+}
+
+.img-art{
+    max-width: 100%;
+}
+
+.cont-art{
+    width: 100px;
+    vertical-align: top;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(244, 245, 171);
+    line-height: 30px;
+    text-align: center;
+    padding: 45px;
+}
+
+footer div a{
+    text-decoration: none;
+    color: rgb(80, 19, 221);
+}
+
